@@ -16,6 +16,7 @@ This repository contains a rigorous, pure replication of the `FinRL-Trading` aut
 2. Install all required dependencies via pip:
    ```bash
    pip install yfinance pandas numpy lightgbm scikit-learn bt requests
+   
 3.Open FinRL_Full_selection.ipynb and run all cells sequentially:
 
   Cell 1: Programmatically scrapes the complete S&P 500 ticker list from Wikipedia (with 403-forbidden bypass headers) and builds the historical database.
